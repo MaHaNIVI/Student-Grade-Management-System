@@ -89,7 +89,7 @@ class StudentManager:
             for student in self.students.values():
                 print(f"ID: {student.student_id}, Name: {student.name}, Scores: {student.scores}, "
                       f"Average: {student.average_score():.2f}, Highest: {student.highest_score()}, "
-                      f"Lowest: {student.lowest_score()}, Median: {student.median_score()}")
+                      f"Lowest: {student.lowest_score()}")
 
     def search_student(self):
         search_id = input("Enter student ID or name to search: ")
